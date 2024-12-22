@@ -13,7 +13,7 @@ function Card({ title, description, icon, onClick }) {
       <div>
         <div className="profile-desc-down">Hi, I'm Sachin Kumar</div>
       </div> */}
-      <h1 className="text-gradient">Hi I'm Sachin Kumar</h1>
+      <h1 className="mob-new-text text-gradient">Hi I'm Sachin Kumar</h1>
     </div>
   );
 }
