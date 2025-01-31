@@ -18,23 +18,33 @@ import { MdAdsClick } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { SiGeeksforgeeks } from "react-icons/si";
 import { SiCodeforces } from "react-icons/si";
-
+import ten from '../ten.png';
 
 const jobsection = () =>{
     return (
         <>
         <div className='d-flex justify-content-center'>
-        <div className='d-flex mt-5 mob-new-clr text-gradient' style={{fontSize:"25px"}}>
-            <div >
-              <img className='job-card-one' src="https://img.10times.com/img/sharelogo.jpg" alt="logo" />
-            </div>
-            <div  className='job-card-two ms-2'>
-              <div>10times <a href="https://10times.com" rel="noreferrer" className='ms-2' target='_blank'><FaExternalLinkAlt/></a> </div>
+        <div className='d-flex mt-5 mob-new-clr' style={{fontSize:"25px"}}>
+            
+            <div  className='job-card-two ms-2 d-flex'>
+              <div className='w-75'>
+              <div>10times 
+              <a href="https://10times.com" rel="noreferrer" className='ms-2' target='_blank' style={{color: 'black', textDecoration: 'none'}}><FaExternalLinkAlt/></a>
+              </div>
               <div>May 2023 - Nov 2024</div>
-               <div>Software developer - Remote</div>
-               {/* <div>Remote</div> */}
-               <div>Tech Stack: Html Twig , Css, Bootstrap 5 , jQuery  , Javascript, php</div>
-               <div>My Works : <a href="https://10times.com/hub"  rel="noreferrer" className='ms-2'   target='_blank'><SiHubspot/></a> <a href="https://10times.com/experts" className='ms-2' rel="noreferrer" target='_blank'><FaUserAlt/></a> <a href="https://10times.com/experts" className='ms-2' rel="noreferrer" target='_blank'><BsCalendar2EventFill/></a> </div>
+              <div>Software developer - Remote</div>
+              {/* <div>Remote</div> */}
+              <div>Tech Stack: Html Twig, Css, Bootstrap5, jQuery, Javascript, php</div>
+              <div>My Works: 
+                <a href="https://10times.com/hub" rel="noreferrer" className='ms-2' target='_blank' style={{color: 'black', textDecoration: 'none'}}><SiHubspot/></a> 
+                <a href="https://10times.com/experts" className='ms-2' rel="noreferrer" target='_blank' style={{color: 'black', textDecoration: 'none'}}><FaUserAlt/></a> 
+                <a href="https://10times.com/experts" className='ms-2' rel="noreferrer" target='_blank' style={{color: 'black', textDecoration: 'none'}}><BsCalendar2EventFill/></a> 
+              </div>
+            </div>   
+            <div className='w-25'>
+              <img className='job-card-one mt-3' src={ten} alt="logo" />
+            </div>
+            
             </div>
         </div>
         </div>
@@ -70,7 +80,7 @@ const main = () => {
   return (
     <div>
     <div className='d-flex justify-content-center'>
-    <div  className='icons d-flex justify-content-evenly align-items-center gap-5 top-icons'>
+    <div  className='icons d-flex justify-content-evenly align-items-center gap-5 top-icons dark-icons'>
     <a href="https://www.linkedin.com/in/sachin-kumar-0804341b7/" rel="noreferrer" target="_blank"> <FaLinkedin/></a>
     <a href="https://leetcode.com/u/sachinagon/" rel="noreferrer" target="_blank"> <SiLeetcode/></a>
     <a href="https://www.codechef.com/users/logan_23" rel="noreferrer" target="_blank"> <SiCodechef/></a>
