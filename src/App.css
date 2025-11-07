@@ -2,6 +2,18 @@
   background-color: #404040;
 }
 
+/* Decryption animation styles */
+.encrypted {
+  color: #666;
+  font-family: monospace;
+  opacity: 0.8;
+}
+
+.revealed {
+  color: #0b1220;
+  transition: color 0.3s ease;
+}
+
 .card-cu{
   display: flex;
   justify-content: space-evenly;

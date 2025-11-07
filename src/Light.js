@@ -5,26 +5,38 @@ import { FaJsSquare } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { BsFiletypeSql } from "react-icons/bs";
 import { PiFileCppFill } from "react-icons/pi";
-import { FaLinkedin } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
-import { SiCodechef } from "react-icons/si";
-import { IoDocument } from "react-icons/io5";
+// import { FaLinkedin } from "react-icons/fa";
+// import { SiLeetcode } from "react-icons/si";
+// import { SiCodechef } from "react-icons/si";
+// import { IoDocument } from "react-icons/io5";
 import { FaExternalLinkAlt } from "react-icons/fa";
 // import { BsCalendar2EventFill } from "react-icons/bs";
 // import { FaUserAlt } from "react-icons/fa";
 // import { SiHubspot } from "react-icons/si";
 // import { MdAdsClick } from "react-icons/md";
-import { FaGithub } from "react-icons/fa";
-import { SiGeeksforgeeks } from "react-icons/si";
-import { SiCodeforces } from "react-icons/si";
+// import { FaGithub } from "react-icons/fa";
+// import { SiGeeksforgeeks } from "react-icons/si";
+// import { SiCodeforces } from "react-icons/si";
 // import Footer from './components/Footer';
 import { CiMail } from "react-icons/ci";
 import { IoCallSharp } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 import { MdLightMode } from "react-icons/md";
+import NewLight from './newlight';
+import ElectricBorder from "./ElectricBorder";
+
 
 const ProjectCard = (name,year,source,link,tech) =>{
     return (<>
+     <ElectricBorder
+        color="#ff7d83ff"
+        speed={1}
+        chaos={0.5}
+        thickness={2}
+        style={{ borderRadius: 16,paddingBottom:'10px' }}
+        width="fit-content"
+        height="fit-content"
+      >
      <div className='p-card p-3 mt-3'>
         <div style={{color:'black'}}>{year}</div>
         <div className='mt-2 fw-bold'>{name} <span className='ms-2' style={{color:'grey'}}>- {tech}</span></div>
@@ -33,6 +45,7 @@ const ProjectCard = (name,year,source,link,tech) =>{
         <a role='button' href={link} target='_blank' className='btn btn-secondary' style={{color:'black'}}>Demo <FaExternalLinkAlt/></a>
         </div>
      </div>
+     </ElectricBorder>
     </>);
 }
 function Light() {
@@ -42,12 +55,12 @@ function Light() {
     <div className="light">
       <header className='ml'>
         <div className='mt-5 fw-bold fs-3 nme'>Sachin Kumar <Link to="/light" style={{color:'#000'}} className="ms-2"><MdLightMode/></Link></div>
-        <div className='header-style mt-3'>
-            {/* <div className='d-flex justify-content-between w-25 mt-3 mob-head'>
+        {/* <div className='header-style mt-3'>
+             <div className='d-flex justify-content-between w-25 mt-3 mob-head'>
                 <div className='fw-bold' role='button'>Work</div>
                 <div className='fw-bold' role='button'>Projects</div>
                 <div className='fw-bold' role='button'> <a href="https://drive.google.com/file/d/159t6hcPNh6F433_CZmRVH_qFNa1lBgQl/view?usp=drive_link" rel="noreferrer" target="_blank">Resume</a></div>
-            </div> */}
+            </div> 
             <div className='d-flex justify-content-between w-50'>
             <div  className='d-flex top-icons fs-2 mob-head'>
             <a href="https://www.linkedin.com/in/sachin-kumar-0804341b7/" rel="noreferrer" target="_blank"> <FaLinkedin/></a>
@@ -59,11 +72,11 @@ function Light() {
             <a href="https://github.com/war-daddy" rel='noreferrer' target='blank'><FaGithub/></a>
             </div>
             </div>
-        </div>
+        </div> */}
       </header>
 
       <section className='ml'>
-       <div className='fw-bold fs-1 mt-5'>Hey, I'm Sachin!</div>
+       <div className='fw-bold fs-1 mt-5 typing'>Hey, I'm Sachin!</div>
        <div className='mt-3 fs-5'>Welcome to my spot 👋</div>
        <div className='mt-3 fs-5'>I'm a Software Developer who loves building things from scratch and optimizing performance. I enjoy turning ideas into reality using JavaScript, React, and PHP. Passionate about frontend and backend development, I’ve worked on impactful projects like a DSA Simulator and a Live Crypto Tracker. Always eager to learn, improve, and collaborate on exciting projects. Let’s build something amazing together!</div>
        <div className='mt-3 fs-5'>Last working at <a href='https://10times.com' target='_blank' className='fw-bold'>10Times</a> as a Software developer for <span className='fw-bold'>1.5</span> Years.</div>
