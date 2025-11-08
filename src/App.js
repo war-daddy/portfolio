@@ -1,9 +1,9 @@
 import './App.css';
 import Card from './components/card';
-import Header from './components/header';
 import Main from './components/main';
 import EducationCard from "./components/EducationCard";
 import Footer from './components/Footer';
+import React from 'react';
 
 function App() {
   return (

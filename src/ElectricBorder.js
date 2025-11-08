@@ -75,13 +75,13 @@ const ElectricBorder = ({ children, color = '#5227FF', speed = 1, chaos = 1, thi
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const vars = {
-    ['--electric-border-color']: color,
-    ['--eb-border-width']: `${thickness}px`
+  const styles = {
+    '--electric-border-color': color,
+    '--eb-border-width': `${thickness}px`
   };
 
   return (
-    <div ref={rootRef} className={`electric-border ${className ?? ''}`} style={{ ...vars, ...style }}>
+    <div ref={rootRef} className={`electric-border ${className ?? ''}`} style={{ ...styles, ...style }}>
       <svg ref={svgRef} className="eb-svg" aria-hidden focusable="false">
         <defs>
           <filter id={filterId} colorInterpolationFilters="sRGB" x="-20%" y="-20%" width="140%" height="140%">
