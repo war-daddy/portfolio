@@ -58,11 +58,13 @@ function Home() {
               Sachin Kumar
             </GlitchText>
           </h2>
-          <p className="home-sub">Full‑Stack Developer</p>
+          <p className="home-sub">Software Developer at <a href="https://www.eloop.dev/" style={{ color: "aqua" }} target="_blank" rel="noreferrer">
+                eLoop Dev Solutions LLP
+              </a></p>
           <div className="home-sub" style={{ marginTop: "-18px" }}>
             <p>
-              Ex Software Developer at{" "}
-              <a href="https://www.10times.com" style={{ color: "orange" }}>
+              Ex : Software Developer at{" "}
+              <a href="https://www.10times.com" style={{ color: "orange" }} target="_blank" rel="noreferrer">
                 10Times
               </a>
             </p>
