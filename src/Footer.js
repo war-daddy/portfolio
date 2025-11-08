@@ -144,21 +144,21 @@ export default function Footer() {
           {/* Quick Links */}
           <div style={columnStyle}>
             <h3 style={headingStyle}>Quick Links</h3>
-            <a style={linkStyle}>Home</a>
-            <a style={linkStyle}>About</a>
-            <a style={linkStyle}>Services</a>
-            <a style={linkStyle}>Portfolio</a>
-            <a style={linkStyle}>Contact</a>
+            <a href="#resume" style={linkStyle}>Resume</a>
+            <a href="#about" style={linkStyle}>About</a>
+            <a href="#services" style={linkStyle}>Services</a>
+            <a href="#portfolio" style={linkStyle}>Portfolio</a>
+            <a href="#contact" style={linkStyle}>Contact</a>
           </div>
 
           {/* Services */}
           <div style={columnStyle}>
             <h3 style={headingStyle}>Services</h3>
-            <a style={linkStyle}>Web Design</a>
-            <a style={linkStyle}>Web Development</a>
-            <a style={linkStyle}>UI/UX Design</a>
-            <a style={linkStyle}>Branding</a>
-            <a style={linkStyle}>Consulting</a>
+            <a href="#web-design" style={linkStyle}>Web Design</a>
+            <a href="#web-development" style={linkStyle}>Web Development</a>
+            <a href="#ui-ux" style={linkStyle}>UI/UX Design</a>
+            <a href="#branding" style={linkStyle}>Branding</a>
+            <a href="#consulting" style={linkStyle}>Consulting</a>
           </div>
 
           {/* Contact Info */}

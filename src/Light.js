@@ -41,8 +41,8 @@ const ProjectCard = (name,year,source,link,tech) =>{
         <div style={{color:'black'}}>{year}</div>
         <div className='mt-2 fw-bold'>{name} <span className='ms-2' style={{color:'grey'}}>- {tech}</span></div>
         <div className='mt-3 d-flex gap-3'>
-        <a role='button' href={source} target='_blank' className='btn btn-primary' style={{color:'black'}}>Source <FaExternalLinkAlt/></a>
-        <a role='button' href={link} target='_blank' className='btn btn-secondary' style={{color:'black'}}>Demo <FaExternalLinkAlt/></a>
+        <a role='button' href={source} target='_blank' rel="noreferrer" className='btn btn-primary' style={{color:'black'}}>Source <FaExternalLinkAlt/></a>
+        <a role='button' href={link} target='_blank' rel="noreferrer" className='btn btn-secondary' style={{color:'black'}}>Demo <FaExternalLinkAlt/></a>
         </div>
      </div>
      </ElectricBorder>
@@ -79,7 +79,7 @@ function Light() {
        <div className='fw-bold fs-1 mt-5 typing'>Hey, I'm Sachin!</div>
        <div className='mt-3 fs-5'>Welcome to my spot 👋</div>
        <div className='mt-3 fs-5'>I'm a Software Developer who loves building things from scratch and optimizing performance. I enjoy turning ideas into reality using JavaScript, React, and PHP. Passionate about frontend and backend development, I’ve worked on impactful projects like a DSA Simulator and a Live Crypto Tracker. Always eager to learn, improve, and collaborate on exciting projects. Let’s build something amazing together!</div>
-       <div className='mt-3 fs-5'>Last working at <a href='https://10times.com' target='_blank' className='fw-bold'>10Times</a> as a Software developer for <span className='fw-bold'>1.5</span> Years.</div>
+       <div className='mt-3 fs-5'>Last working at <a href='https://10times.com' target='_blank' rel="noreferrer" className='fw-bold'>10Times</a> as a Software developer for <span className='fw-bold'>1.5</span> Years.</div>
       </section>
        
        <section className='ml mt-5'>
