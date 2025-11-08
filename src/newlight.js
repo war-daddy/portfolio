@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 
 import Home from "./Home";
 // import main from "./components/main";
 import ChromaGrid from "./ChromaGrid";
 
-import SpotlightCard from "./SpotlightCard";
+// import SpotlightCard from "./SpotlightCard";
 import EducationSection from "./Educatinbox";
 import Expbox from "./Expbox";
 import Work from "./Work";
