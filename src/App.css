@@ -310,3 +310,32 @@ color: #fff;
   border-radius: 20px;
   width: 1000px;
 }
+
+/* Page-by-page scroll sections (scroll snap) */
+.scroll-pages {
+  height: 100vh; /* container occupies full viewport */
+  width: 100%;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory; /* snap vertically and require alignment */
+  -webkit-overflow-scrolling: touch; /* smooth touch scrolling on iOS */
+  scroll-behavior: smooth;
+}
+
+.page-section {
+  scroll-snap-align: start; /* snap each section to the top */
+  min-height: 100vh; /* make each section at least one viewport tall */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Optional: allow content inside a section to scroll if it overflows */
+.page-section .inner-scrollable {
+  max-height: 100vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Keyboard focus outline for snapped sections */
+.page-section:focus {
+  outline: none;
+}
