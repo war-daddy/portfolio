@@ -15,15 +15,15 @@ export default function Expbox() {
     letterSpacing: '2px',
   };
 
-  const descriptionStyle = {
-    textAlign: 'center',
-    color: '#aaa',
-    fontSize: '14px',
-    lineHeight: '1.6',
-    marginBottom: '50px',
-    maxWidth: '600px',
-    margin: '0 auto 50px',
-  };
+  // const descriptionStyle = {
+  //   textAlign: 'center',
+  //   color: '#aaa',
+  //   fontSize: '14px',
+  //   lineHeight: '1.6',
+  //   marginBottom: '50px',
+  //   maxWidth: '600px',
+  //   margin: '0 auto 50px',
+  // };
 
   const skillsContainerStyle = {
     maxWidth: '900px',
