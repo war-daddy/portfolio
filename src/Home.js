@@ -8,7 +8,7 @@ import LightRays from "./LightRays";
 import { FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { SiCodechef } from "react-icons/si";
-import { IoDocument } from "react-icons/io5";
+// import { IoDocument } from "react-icons/io5"PiFileCppFill;
 import { FaGithub } from "react-icons/fa";
 import { SiGeeksforgeeks } from "react-icons/si";
 import { SiCodeforces } from "react-icons/si";
