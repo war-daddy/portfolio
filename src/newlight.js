@@ -76,9 +76,23 @@ function NewLight() {
       {/* {main()} */}
       <div
         style={{
+          background: "#0a0a0a",
+          display: "flex",
+          justifyContent: "center",
+          padding: "10px 0",
+          fontSize: "36px",
+          fontWeight: "bold",
+          color: "#fff",
+          // marginTop: "50px",
+        }}
+      >
+        Projects
+      </div>
+      <div
+        style={{
           position: "relative",
           width: "100%",
-          height: "100vh",
+          // height: "100vh",
           minHeight: "800px",
           display: "flex",
           alignItems: "center",
@@ -96,9 +110,7 @@ function NewLight() {
         />
       </div>
       {/* edu */}
-      <div>
-        
-      </div>
+      <div></div>
       <div
         style={{
           background: "",
@@ -106,13 +118,11 @@ function NewLight() {
           justifyContent: "center",
           padding: "0px 0",
         }}
-      >
-               
-      </div>
+      ></div>
       <Expbox />
       <EducationSection />
       <Work />
-      <Footer/>
+      <Footer />
     </>
   );
 }
