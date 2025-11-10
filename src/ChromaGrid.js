@@ -137,7 +137,9 @@ export const ChromaGrid = ({
       style={{
         '--r': `${radius}px`,
         '--cols': columns,
-        '--rows': rows
+        '--rows': rows,
+        marginTop:'50px',
+        marginBottom:'50px'
       }}
       onPointerMove={handleMove}
       onPointerLeave={handleLeave}

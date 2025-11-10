@@ -90,7 +90,7 @@ function Home() {
         <div>
           <div className="header-style mt-3">
             <div className="d-flex justify-content-between w-50">
-              <div className="d-flex top-icons fs-2 mob-head">
+              <div className="d-flex top-icons fs-2 mob-head gap-5">
                 <a
                   href="https://www.linkedin.com/in/sachinkdev"
                   rel="noreferrer"
