@@ -8,7 +8,7 @@ import ChromaGrid from "./ChromaGrid";
 import EducationSection from "./Educatinbox";
 import Expbox from "./Expbox";
 import Work from "./Work";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 const items = [
   {
@@ -122,7 +122,7 @@ function NewLight() {
       <Expbox />
       <EducationSection />
       <Work />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
